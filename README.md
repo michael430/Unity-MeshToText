@@ -14,7 +14,7 @@ Variables array:
 Include example script to load the mesh from text file back to the scene.
 
 
-![Unity MeshToText Screen Shot](./Unity MeshToText Screen Shot.png)
+![Unity MeshToText Screen Shot](./Unity MeshToText Screen Shot.jpg)
 
 ### How it works:
 
