@@ -3,7 +3,7 @@
 ##Features
 **Save Mesh to text or CS file, and load the Mesh from file.**
 
-This unity project will write any mesh with unity standard variables format into a text or C# file.
+This unity project will write any mesh with unity standard variables format into a plain text or C# file.
 
 Variables array: 
 > Vector3[] vertices = { new Vector3(.... };
