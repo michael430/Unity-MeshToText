@@ -15,6 +15,8 @@ Variables array:
 
 Check out the unity default cube primitive mesh to a csharp file [here](https://github.com/michael430/Unity_MeshToText/blob/master/Assets/BakedMeshData.cs).
 
+Demo scene here will write a cube mesh to file, you can apply any custom mesh to Mesh Filter component to write to file.
+
 Include example script to load the mesh from text file back to the scene.
 
 
@@ -27,8 +29,8 @@ Include example script to load the mesh from text file back to the scene.
 *Write mesh to file:*
 - Select the **Mesh Write** game object.
 - Click the **Export File** button to write the mesh to a file.
-  Demo scene here will write a cube mesh to file, you can apply any custom mesh to Mesh Filter component to write to file.
 
 *Read mesh from the file:*
 - Click the **PLAY** button. 
+  
   You will see the **Mesh Read** game object will generate a mesh from the exported file.
