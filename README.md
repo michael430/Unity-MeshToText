@@ -13,7 +13,7 @@ Variables array:
 >* Vector2[] uv2 = { new Vector2(.... };
 >* int[] triangles = { .... };
 
-Check out the mesh file [here](https://github.com/michael430/Unity_MeshToText/blob/master/Assets/BakedMeshData.cs).
+Check out the unity default cube primitive mesh to a csharp file [here](https://github.com/michael430/Unity_MeshToText/blob/master/Assets/BakedMeshData.cs).
 
 Include example script to load the mesh from text file back to the scene.
 
