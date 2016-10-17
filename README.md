@@ -38,3 +38,6 @@ Include example script to load the mesh from text file back to the scene in runt
 - Click the **PLAY** button. 
   
   You will see the **Mesh Read** game object will generate a mesh from the exported file.
+  
+###license
+Free.
