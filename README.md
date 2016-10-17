@@ -9,7 +9,7 @@ Variables array:
 * Vector2[] uv0 = { new Vector2(.... };
 * Vector2[] uv2 = { new Vector2(.... };
 * int[] triangles = { .... };
-* .......
+
 
 Include example script to load the mesh from text file back to the scene.
 
