@@ -1,6 +1,6 @@
-# Unity MeshToText Project
+## Unity MeshToText Project
 
-## Features
+### Features
 This unity will write a static or procedural generated mesh with unity standard variables format into a text or C# file.
 Variables array: 
 * Vector3[] vertices = { new Vector3(.... };
@@ -18,11 +18,11 @@ Include example script to load the mesh from text file back to the scene.
 
 ### How it works:
 
-**1. Lanuch the scene.**
+1. Lanuch the scene.
 
 
-**2. Select the "Mesh Write" game object.**
+2. Select the **Mesh Write** game object.
 
 
-**3. Click the "Export File" to write the mesh to a file.**
+3. Click the **Export File** to write the mesh to a file.
 
