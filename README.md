@@ -18,7 +18,7 @@ Include example script to load the mesh from text file back to the scene.
 
 ### How it works:
 
-1. Lanuch the scene.
+1. Launch the scene.
 
 
 2. Select the **Mesh Write** game object.
