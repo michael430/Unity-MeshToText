@@ -1,5 +1,6 @@
 # Unity MeshToText Project
 
+(./Unity MeshToText Screen Shot.png)
 
 ### How it works:
 
