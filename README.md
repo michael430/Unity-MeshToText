@@ -1,7 +1,9 @@
 # Unity MeshToText Project
 
 ## Features
-This unity will write any static or procedural generated mesh with unity standard variables format into a text or C# file.
+** Save Mesh to text or CS file , and load the Mesh from file**
+
+This unity project will write any mesh with unity standard variables format into a text or C# file.
 Variables array: 
 * Vector3[] vertices = { new Vector3(.... };
 * Vector3[] normals = { new Vector3(.... };
