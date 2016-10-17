@@ -14,8 +14,7 @@ Variables array:
 >* int[] triangles = { .... };
 
 Check out the unity default cube primitive mesh to a csharp file [here](https://github.com/michael430/Unity_MeshToText/blob/master/Assets/BakedMeshData.cs).
-
-Demo scene here will write a cube mesh to file, you can apply any custom mesh to Mesh Filter component to write to file.
+(You can apply any custom mesh to Mesh Filter component to write to file.)
 
 Include example script to load the mesh from text file back to the scene.
 
