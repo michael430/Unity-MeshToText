@@ -4,13 +4,14 @@
 **Save Mesh to text or CS file, and load the Mesh from file.**
 
 This unity project will write any mesh with unity standard variables format into a text or C# file.
+
 Variables array: 
-* Vector3[] vertices = { new Vector3(.... };
-* Vector3[] normals = { new Vector3(.... };
-* Vector4[] tangents = { new Vector4(.... };
-* Vector2[] uv0 = { new Vector2(.... };
-* Vector2[] uv2 = { new Vector2(.... };
-* int[] triangles = { .... };
+>* Vector3[] vertices = { new Vector3(.... };
+>* Vector3[] normals = { new Vector3(.... };
+>* Vector4[] tangents = { new Vector4(.... };
+>* Vector2[] uv0 = { new Vector2(.... };
+>* Vector2[] uv2 = { new Vector2(.... };
+>* int[] triangles = { .... };
 
 
 Include example script to load the mesh from text file back to the scene.
