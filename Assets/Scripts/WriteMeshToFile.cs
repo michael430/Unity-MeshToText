@@ -1,35 +1,29 @@
-﻿/* This script will write a static or procedural generated Mesh with unity standard variables format into a text or C# file.
-* Variables array: 
-* Vector3[] vertices = { new Vector3(.... };
-* Vector3[] normals = { new Vector3(.... };
-* Vector4[] tangents = { new Vector4(.... };
-* Vector2[] uv0 = { new Vector2(.... };
-* Vector2[] uv2 = { new Vector2(.... };
-* int[] triangles = { .... };
-* 
-* NOTE:
-* If the mesh is a procedural generated Mesh, it needs to Recalculate the tangents of the mesh. 
-* Other wise bumpmap shaders will not work.
-* 
-* Also keep in mind that RecalculateNormals() in unity does NOT generate tangents automatically. 
-* At the moment unity does not have built-in RecalculateTangents function.
-* So it needs to write your own tangents function.
-* 
-* Reference for tangents coding:
-* http://answers.unity3d.com/questions/7789/calculating-tangents-vector4.html
-* https://forum.unity3d.com/threads/how-to-calculate-mesh-tangents.38984/
-*/
-
-// Suggestion:
-// If writing a very huge or high resolution mesh to file, properly need to add the 
-// UnityEditor.EditorUtility.DisplayCancelableProgressBar () function.
-// So that user can be able to cancel it while it is taking too long to write the file in editor.
-
-// USAGE:
-// Apply this script to a game object like Cube or Sphere..etc.
-// The mesh that you want to be written which assign to mesh field in MeshFilter. 
-// Hit "PLAY" Buttom : A text file will be created in your current Assets folder.
-
+//
+// This is free and unencumbered software released into the public domain.
+//
+// Anyone is free to copy, modify, publish, use, compile, sell, or
+// distribute this software, either in source code form or as a compiled
+// binary, for any purpose, commercial or non-commercial, and by any
+// means.
+//
+// In jurisdictions that recognize copyright laws, the author or authors
+// of this software dedicate any and all copyright interest in the
+// software to the public domain. We make this dedication for the benefit
+// of the public at large and to the detriment of our heirs and
+// successors. We intend this dedication to be an overt act of
+// relinquishment in perpetuity of all present and future rights to this
+// software under copyright law.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+// IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+// OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+// ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+// OTHER DEALINGS IN THE SOFTWARE.
+//
+// For more information, please refer to <http://unlicense.org/>
+//
 
 using UnityEngine;
 using System.IO;
