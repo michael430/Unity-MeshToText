@@ -24,7 +24,7 @@ Check out the unity default cube primitive mesh to a csharp file [here](https://
 Include example script to load the mesh from text file back to the scene in runtime.
 
 
-![Unity MeshToText Screen Shot](./Unity MeshToText Screen Shot.jpg)
+![Unity MeshToText Screen Shot](Unity-MeshToText/Unity MeshToText Screen Shot.jpg)
 
 ## How it works:
 
